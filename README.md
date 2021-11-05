@@ -1,14 +1,24 @@
 # PHP-HASH-LICENSE-GENERATE
-Sistema desarrollado en PHP con Libreria PHP Simple Encryption, usando también librería Faker 
+Sistema desarrollado en PHP con Libreria PHP Simple Encryption, usando también librería Faker.
+
+* Sistema de prueba sin ningun motivo, para pasar el tiempo.
 
 
 Libreria PHP Simple Encryption : https://github.com/stymiee/php-simple-encryption
 
 Libreria Faker : https://github.com/fzaninotto/Faker
 
-En el formulario se crea un email generiado por Faker: ```$faker->freeEmail;```
+En el formulario se crea un email generado por Faker: ```$faker->freeEmail;```
 
 Con el código ```mt_rand``` genera una "licencia" o "número generico" desde el archivo ```test.php```
+
+Instalar mediante composer  ```composer install```
+
+Instalar dependencias **OPCIONAL** si hay actualización:
+
+```composer require stymiee/php-simple-encryption``` 
+
+```composer require fzaninotto/faker```
 
 ----------------------------------------------------
 
